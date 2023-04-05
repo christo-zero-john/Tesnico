@@ -15,7 +15,7 @@
 */
 
 const Telegraf = require('telegraf');
-const bot = new Telegraf ('5670886047:AAGWDSCdXB5RymUBT4x_tIK0rJw1Q1JbOac');
+const bot = new Telegraf ('BOT_TOKEN');
 
 //replace bot token with any bots token ---- Am not taking risk publisizing Tesnico's token :))
 
