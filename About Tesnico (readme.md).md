@@ -47,7 +47,11 @@ GitHub : https://github.com/ChristoJohn1030/Tesnico.git
 
 <h2>Version History</h2>
 
-<h3>**V 1.0.0**</h3>
+<h3> 
+
+**V 1.0.0**
+
+</h3>
 <h4>
     * Version Release number : 1
     * Released on 23 06 2023
@@ -57,3 +61,22 @@ GitHub : https://github.com/ChristoJohn1030/Tesnico.git
     * /TesInfo : Gives you some basic Information about Tesnico
     * /Requests : Lists out all the available requests Tesnico can handle
 </h4>
+<h5>
+How it is all arranged :
+* There are mainly 3 folders you can see in this reposiory
+* The first one is Source folder which contains Tesnico Source code.js and package.json files:
+    the Tesnico Source code.js file is the reak source code file of the Tesnico Bot. and the Package.json file is the file containing important informations about this project...It contains tesnico version number and different dependencies used for the project . What is its use is that make a folder in your PC install node.js and start a project. Then copy paste the code in my package.json file to your package.json file. (Warning only copy and paste the dependencies section).
+    then give npm install and now you will have the same packages and dependencies a sin my project and feel free to copy paste and use Tesnico's source code.(Replace BOT_TOKEN with a valid telegram bot token)
+
+* The second folder is a Requests folder which contains numerous programs. They all are programs specific for only one bot request.
+
+* THe third one is activities folder: That folder contains different miscalleneous ptelegram bot program examples
+
+* You can try all the programs in Requests and activities folder but make sure that you replace BOT_TOKEN in the line const bot = new Telegraf('BOT_TOKEN') with a valid bot token and also inside single quotes 
+
+example: const bot = new Telegraf('vejjtn5ur4r78348r7389unvr3483957:00dfg');
+
+**Bot tokens are unique bot Id's that cannot be publicized .Once it is got by a third party they could mess up your bot...Be careful...**
+
+
+</h5>
